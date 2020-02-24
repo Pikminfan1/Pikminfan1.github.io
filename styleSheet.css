@@ -1,0 +1,44 @@
+
+		@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+		html body { background-color: #0B0C10;
+		font: 0.9em Verdana,Arial,sans-serif;}
+		a:link {
+		color: purple;
+		background-color: transparent;
+		text-decoration: none;
+		}
+
+		p{
+			color: #C5C8C7;
+			font: 1.9em Roboto Condensed;
+			text-align:center;
+		}
+
+
+		a:visited {
+		color: #45A29E;
+			background-color: transparent;
+		text-decoration: none;
+		}
+			
+		a:hover {
+		color: #66FCF1;
+		background-color: transparent;
+		text-decoration: underline;
+		}
+	
+		a:active {
+		color: yellow;
+		background-color: transparent;
+		text-decoration: underline;
+		}
+		
+
+
+		.center{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+			
+		}
