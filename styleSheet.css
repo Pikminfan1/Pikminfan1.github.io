@@ -23,7 +23,8 @@
 		}
 
 a1{
-	font-size: 40px;
+	font-size: 40px
+		font: 1.9em Roboto Condensed;
 }
 		a:visited {
 		color: #45A29E;
