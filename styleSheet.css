@@ -8,6 +8,12 @@
 		text-decoration: none;
 		}
 
+		a1:link {
+		color: purple;
+		background-color: transparent;
+		text-decoration: none;
+		}
+
 		p{
 			color: #C5C8C7;
 			font: 1.9em Roboto Condensed;
@@ -33,6 +39,25 @@ a{
 		}
 	
 		a:active {
+		color: yellow;
+		background-color: transparent;
+		text-decoration: underline;
+		}
+
+		a1:visited {
+		color: #45A29E;
+			background-color: transparent;
+		text-decoration: none;
+			
+		}
+			
+		a1:hover {
+		color: #66FCF1;
+		background-color: transparent;
+		text-decoration: underline;
+		}
+	
+		a1:active {
 		color: yellow;
 		background-color: transparent;
 		text-decoration: underline;
