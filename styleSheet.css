@@ -12,13 +12,18 @@
 			color: #C5C8C7;
 			font: 1.9em Roboto Condensed;
 			text-align:center;
+			padding-: 50px;
+			padding-left: 50px;
 		}
 
-
+a{
+	font-size: 40px;
+}
 		a:visited {
 		color: #45A29E;
 			background-color: transparent;
 		text-decoration: none;
+			
 		}
 			
 		a:hover {
