@@ -1,38 +1,286 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Games — Ryan Rose</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="scanline"></div>
+<div class="noise"></div>
 
-	<head>
-			<a href="https://pikminfan1.github.io"style="font-size: 30px">Home</a>
-	<link rel="styleSheet" type="text/css" href="styleSheet.css">
-		<title>Ryan Rose Portfolio: Game Projects</title>
-	</head>
+<nav>
+  <a href="index.html" class="nav-logo">RR<span class="blink">_</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="games.html" class="active">GAMES</a></li>
+    <li><a href="mailto:ryanprose96@gmail.com" class="nav-cta">CONTACT</a></li>
+  </ul>
+  <button class="hamburger" onclick="toggleNav()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
 
-	<iframe width="480" height="480" src="https://www.youtube.com/embed/jvSYcmO0pKs" title="YouTube video player" frameborder="0" class = "center" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		<p>"Celestial Switch" was my most recent Game Jam I participated in for the Unreal Engine Mega Jam. In this game you wall run and double jump while switching between forms to navigate levels in a speedrunning fashion. This game was made in Unreal Engine and the majority of the game code and implementation of the art assets was done by me. The game uses perlin noise for many of its materials and features music that switches seamlessly between 2 different instrumental versions.</p></body>
+<main>
+  <section class="page-header">
+    <div class="section-label">// SHIPPED GAMES</div>
+    <h1 class="page-title">GAMES</h1>
+  </section>
+
+  <section class="games-list">
+
+    <!-- L-00PR ───────────────────────────────────────────── -->
+    <article class="game-entry featured-entry">
+      <div class="game-screen game-screen-lopr" style="padding:0;overflow:hidden;">
+        <img src="https://img.itch.zone/aW1nLzIyNTY2ODQ3LnBuZw==/original/7JfexT.png" alt="L-00PR cover art" style="width:100%;height:100%;object-fit:cover;display:block;">
+        <div class="latest-badge">LATEST</div>
+      </div>
+      <div class="game-info">
+        <div class="game-meta-row">
+          <span class="game-jam-tag">GMTK Game Jam 2025</span>
+          <span class="game-engine-tag">Unreal Engine 5</span>
+          <span class="game-engine-tag">Blueprints</span>
+        </div>
+        <h2 class="game-title-lg">L-00pr</h2>
+        <p class="game-desc">Top-down escort shooter where the payload has to reach full charge before it can finish its run. Healing yourself drains that charge, so every time you take damage you're choosing between your health and the payload's progress. You hold off waves of enemies with a gun and a dash attack, trying to keep both yourself and the payload in the fight long enough to break the loop.</p>
+        <ul class="game-details">
+          <li><span>Role</span>Team Lead · Gameplay programmer · Designer</li>
+          <li><span>Engine</span>Unreal Engine 5 (Blueprints)</li>
+          <li><span>Jam</span>GMTK Game Jam 2025 · 48 hours</li>
+          <li><span>Genre</span>Top-down shooter · Escort · Resource management</li>
+        </ul>
+        <div class="game-links">
+          <a href="https://ryanrose.itch.io/l-00pr" target="_blank" class="btn btn-primary">Play on Itch.io ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <div class="divider-rule"><span>2025</span></div>
+
+    <!-- Rewind Racer ─────────────────────────────────────── -->
+    <article class="game-entry">
+      <div class="game-screen" style="padding:0;overflow:hidden;">
+        <img src="https://img.itch.zone/aW1nLzE5OTk4NTQyLnBuZw==/original/sbxwp2.png" alt="Rewind Racer cover art" style="width:100%;height:100%;object-fit:cover;display:block;">
+      </div>
+      <div class="game-info">
+        <div class="game-meta-row">
+          <span class="game-jam-tag">Brackeys Game Jam 2025.1</span>
+          <span class="game-engine-tag">Unreal Engine 5</span>
+          <span class="game-engine-tag">Racing</span>
+        </div>
+        <h2 class="game-title-lg">Rewind Racer</h2>
+        <p class="game-desc">Hover car racer across 3 tracks where one collision with any obstacle ends your run. You have a rewind ability to undo mistakes, but you have to be smart about when you use it. The goal is to finish all 3 laps clean with the fastest combined time. Controller recommended.</p>
+        <ul class="game-details">
+          <li><span>Role</span>Programmer</li>
+          <li><span>Engine</span>Unreal Engine 5</li>
+          <li><span>Jam</span>Brackeys Game Jam 2025.1</li>
+          <li><span>Team</span>Ryan Rose · Wave64 · AccursedMuffin · ghaizij · Polishhomie · Multitype</li>
+          <li><span>Genre</span>Racing · Time manipulation</li>
+        </ul>
+        <div class="game-links">
+          <a href="https://ryanrose.itch.io/rewind-racer" target="_blank" class="btn btn-primary">Play on Itch.io ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Out For Blood ────────────────────────────────────── -->
+    <article class="game-entry">
+      <div class="game-screen" style="padding:0;overflow:hidden;">
+        <img src="https://img.itch.zone/aW1nLzE5NzYzMzA4LnBuZw==/original/uXvnxK.png" alt="Out For Blood cover art" style="width:100%;height:100%;object-fit:cover;display:block;">
+      </div>
+      <div class="game-info">
+        <div class="game-meta-row">
+          <span class="game-jam-tag">Bigmode Game Jam 2025</span>
+          <span class="game-engine-tag">Unreal Engine 5</span>
+          <span class="game-engine-tag">Action</span>
+        </div>
+        <h2 class="game-title-lg">Out For Blood</h2>
+        <p class="game-desc">You play as Lady Dimistra, a Vampire Queen who just woke up weak and needs blood to get her power back. Hunt villagers as fast as you can to build her strength back up. Supports both first and third person, with a kick and ranged attack to take down your targets.</p>
+        <ul class="game-details">
+          <li><span>Role</span>Programmer</li>
+          <li><span>Engine</span>Unreal Engine 5</li>
+          <li><span>Jam</span>Bigmode Game Jam 2025</li>
+          <li><span>Team</span>Ryan Rose · Wave64 · AccursedMuffin · Polishhomie · Multitype</li>
+          <li><span>Genre</span>Third-person shooter · Action</li>
+        </ul>
+        <div class="game-links">
+          <a href="https://ryanrose.itch.io/out-for-blood" target="_blank" class="btn btn-primary">Play on Itch.io ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <div class="divider-rule"><span>2024</span></div>
+
+    <!-- Tiny Huge Turret ─────────────────────────────────── -->
+    <article class="game-entry">
+      <div class="game-screen" style="padding:0;overflow:hidden;">
+        <img src="https://img.itch.zone/aW1hZ2UvMjkxMzkzMC8xNzQ1OTQzNS5wbmc=/original/ITwkr%2B.png" alt="Tiny Huge Turret cover art" style="width:100%;height:100%;object-fit:cover;display:block;">
+      </div>
+      <div class="game-info">
+        <div class="game-meta-row">
+          <span class="game-jam-tag">GMTK Game Jam 2024</span>
+          <span class="game-engine-tag">Unreal Engine 5</span>
+          <span class="game-engine-tag">Shooter</span>
+        </div>
+        <h2 class="game-title-lg">Tiny Huge Turret</h2>
+        <p class="game-desc">A lone pilot holding off waves of titan creatures with a massive turret, running back and forth to repair it when it takes damage. The whole scale thing is literal: you're small, the turret is enormous, and the enemies are bigger than both. Led a 7-person team including a composer, 3D artists, and a UI designer over 48 hours.</p>
+        <ul class="game-details">
+          <li><span>Role</span>Project Lead · Programmer</li>
+          <li><span>Engine</span>Unreal Engine 5</li>
+          <li><span>Jam</span>GMTK Game Jam 2024 · 48 hours</li>
+          <li><span>Team</span>Ryan Rose · Wave64 · Narknon · samfizz · Carlos A. Torres-Cervantes · Malakazam · Chrome Miser</li>
+          <li><span>Genre</span>Third-person shooter · Tower defense</li>
+        </ul>
+        <div class="game-links">
+          <a href="https://ryanrose.itch.io/tinyhugeturret" target="_blank" class="btn btn-primary">Play on Itch.io ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <div class="divider-rule"><span>2023</span></div>
 
 
-	<iframe src="https://www.youtube.com/embed/i7Up1IavNj8" width="480" height="480" frameborder="0" class="center" title="Wave Sword Fighter" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		<p>"Wave Sword Fighter" was my first Unreal Engine game that I made to participate in the 2022 GameDev.tv Game Jam. In this game you try to get as far as you can to rack up the highest score. If your power level is high enough, you'll power up upon death instead of dying for a chance to comeback.</p></body>
-				<iframe src="https://www.youtube.com/embed/_2-Q5FRxsP0" width="480" height="480" frameborder="0" class="center" title="Cruise Control" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		<p>&nbsp;</p>
-		<p>
-					"Cruise Control" was my final University Project created for my Game Programming II course. In this game you are tasked with driving along a randomly generated highway for as long as you can while dealing with distractions along the way. This game was built in Unity and although it's scope had to be scaled back for time, the core concept is still present in the final build.	Cruise Control" was my final University Project created for my Game Programming II course. In this game you are tasked with driving along a randomly generated highway for as long as you can while dealing with distractions along the way. This game was built in Unity and although it's scope had to be scaled back for time, the core concept is still present in the final build.
-		<p>
-				<iframe src="https://www.youtube.com/embed/xzcEWYgxW6s" width="480" height="480" frameborder="0" class="center" title = "Bee Game" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
-		<p>"It's Ya Boid" was my final project for Game Programming I and was made to demonstrate a boid model in Unity.
-		In this game, you control a group of bees (Boids) with the goal of getting the highest score you can in the given time.
-		The longer you collect pollen, the more bees that will join your swarm, until you hit a cap of 100. The more bees you have in your swarm,
-		the more pollen you can gather.
-		</p>
-	</body>
-			<body>
-		<p>While at Brain Evolved I built a variety of Javascript games in the Phaser 3 Engine. I have examples of some Games Built in Phaser 2 on my Github.</p>
-		<a href="https://pikminfan1.github.io/cs325-game-prototypes/" style="text-align:center;" class="center">You can find these here.</a>
-				<link rel="styleSheet" type="text/css" href="styleSheet.css">
-	</body>
+  
+    <!-- Celestial Switch ─────────────────────────────────── -->
+    <article class="game-entry">
+      <div class="game-screen" style="padding:0;overflow:hidden;">
+        <img src="imgs/celestial-switch.jpg" alt="Celestial Switch cover art" style="width:100%;height:100%;object-fit:cover;display:block;">
+      </div>
+      <div class="game-info">
+        <div class="game-meta-row">
+          <span class="game-jam-tag">Epic Mega Jam 2022</span>
+          <span class="game-engine-tag">Unreal Engine 5</span>
+        </div>
+        <h2 class="game-title-lg">Celestial Switch</h2>
+        <p class="game-desc">Wall-run platformer for the Epic MegaJam 2022 theme "As Above So Below." You switch between two forms to get through speedrun-style levels, and the music shifts between two versions of the same track depending on which form you're in. Perlin noise materials on the environments too.</p>
+        <ul class="game-details">
+          <li><span>Role</span>Team Lead · Gameplay · Level design · Art &amp; animation</li>
+          <li><span>Engine</span>Unreal Engine 5 (Blueprints)</li>
+          <li><span>Jam</span>Epic Mega Jam 2022 · 48 hours</li>
+          <li><span>Genre</span>Platformer · Speedrun</li>
+        </ul>
+        <div class="game-links">
+          <a href="https://ryanrose.itch.io/celestial-switch" target="_blank" class="btn btn-primary">Play on Itch.io ↗</a>
+        </div>
+      </div>
+    </article>
 
+    <!-- Wave Sword Fighter ───────────────────────────────── -->
+    <article class="game-entry">
+      <div class="game-screen" style="padding:0;overflow:hidden;">
+        <img src="https://img.itch.zone/aW1nLzk1NzY3NDQuanBn/original/B%2BjwNI.jpg" alt="Wave Sword Fighter cover art" style="width:100%;height:100%;object-fit:cover;display:block;">
+      </div>
+      <div class="game-info">
+        <div class="game-meta-row">
+          <span class="game-jam-tag">GameDev.tv Jam 2022</span>
+          <span class="game-engine-tag">Unreal Engine 4</span>
+        </div>
+        <h2 class="game-title-lg">Wave Sword Fighter</h2>
+        <p class="game-desc">Score-chaser where you fight through waves as long as you can. If your power level is high enough when you would have died, you power up instead and keep going. Made solo for the "Death Is Only The Beginning" jam theme.</p>
+        <ul class="game-details">
+          <li><span>Role</span>Solo developer</li>
+          <li><span>Engine</span>Unreal Engine 4</li>
+          <li><span>Jam</span>GameDev.tv Jam 2022</li>
+          <li><span>Genre</span>Action · Score chaser</li>
+        </ul>
+        <div class="game-links">
+          <a href="https://ryanrose.itch.io/gamedevtv-gmaejam-2022" target="_blank" class="btn btn-primary">Play on Itch.io ↗</a>
+        </div>
+      </div>
+    </article>
 
+    <div class="divider-rule"><span>UNIVERSITY / EARLIER</span></div>
 
+    <!-- Cruise Control ───────────────────────────────────── -->
+    <article class="game-entry">
+      <div class="game-screen" style="background:#002244">
+        <div class="screen-title small">CRUISE<br>CONTROL</div>
+        <div class="screen-badge-corner">UNITY · GMU</div>
+      </div>
+      <div class="game-info">
+        <div class="game-meta-row">
+          <span class="game-jam-tag">University Project</span>
+          <span class="game-engine-tag">Unity</span>
+        </div>
+        <h2 class="game-title-lg">Cruise Control</h2>
+        <p class="game-desc">Final project for Game Programming II. Drive down a procedurally generated highway and last as long as you can while distractions pile up and the difficulty ramps. Made in Unity with a focus on random environment generation.</p>
+        <ul class="game-details">
+          <li><span>Role</span>Solo developer</li>
+          <li><span>Engine</span>Unity</li>
+          <li><span>Genre</span>Endless runner · Driving</li>
+        </ul>
+        <div class="game-links">
+          <a href="https://itch.io/profile/ryanrose" target="_blank" class="btn btn-primary">Itch.io ↗</a>
+        </div>
+      </div>
+    </article>
 
-		
+    <!-- It's Ya Boid ─────────────────────────────────────── -->
+    <article class="game-entry">
+      <div class="game-screen" style="background:#1a2e00">
+        <div class="screen-title small">BOIDS</div>
+        <div class="screen-badge-corner">UNITY · GMU</div>
+      </div>
+      <div class="game-info">
+        <div class="game-meta-row">
+          <span class="game-jam-tag">University Project</span>
+          <span class="game-engine-tag">Unity</span>
+        </div>
+        <h2 class="game-title-lg">It's Ya Boid</h2>
+        <p class="game-desc">Boid flocking simulation turned score-chaser. You control a swarm of bees collecting pollen to grow your numbers up to 100. The bigger the swarm gets, the faster it gathers. Made for Game Programming I to demonstrate the boid model.</p>
+        <ul class="game-details">
+          <li><span>Role</span>Solo developer · AI / simulation</li>
+          <li><span>Engine</span>Unity</li>
+          <li><span>Genre</span>Simulation · Score chaser</li>
+        </ul>
+        <div class="game-links">
+          <a href="https://itch.io/profile/ryanrose" target="_blank" class="btn btn-primary">Itch.io ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Phaser Games ─────────────────────────────────────── -->
+    <article class="game-entry">
+      <div class="game-screen" style="background:#2a1500">
+        <div class="screen-title small">PHASER<br>GAMES</div>
+        <div class="screen-badge-corner">JS · BRAIN EVOLVED</div>
+      </div>
+      <div class="game-info">
+        <div class="game-meta-row">
+          <span class="game-jam-tag">Professional / Academic</span>
+          <span class="game-engine-tag">Phaser 3</span>
+          <span class="game-engine-tag">JavaScript</span>
+        </div>
+        <h2 class="game-title-lg">Phaser Browser Games</h2>
+        <p class="game-desc">Browser games made in Phaser 3 during my time at Brain Evolved Inc., along with academic prototypes from George Mason. Mix of mechanics and genres, all playable in the browser with no download needed.</p>
+        <ul class="game-details">
+          <li><span>Role</span>Gameplay programmer · Designer · Art director</li>
+          <li><span>Engine</span>Phaser 3 (JavaScript)</li>
+        </ul>
+        <div class="game-links">
+          <a href="https://pikminfan1.github.io/cs325-game-prototypes/" target="_blank" class="btn btn-primary">View prototypes ↗</a>
+          <a href="https://itch.io/profile/ryanrose" target="_blank" class="btn btn-ghost">Itch.io ↗</a>
+        </div>
+      </div>
+    </article>
+
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <span class="footer-copy">Website made by Ryan Rose</span>
+    <div class="footer-links">
+      <a href="https://itch.io/profile/ryanrose" target="_blank">Itch.io</a>
+      <a href="https://github.com/Pikminfan1" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/ryan-rose-b17665135/" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
 </html>

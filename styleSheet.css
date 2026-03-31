@@ -16,7 +16,7 @@
 
 		p{
 			color: #C5C8C7;
-			font: 1.9em Roboto Condensed;
+			font: 1.1em Roboto Condensed;
 			text-align:center;
 			padding-right: 50px;
 			padding-left: 50px;
@@ -72,4 +72,14 @@ a1{
 			margin-right: auto;
 			width: 50%;
 			
+		}
+
+		.grid-container{
+			display: grid;
+			gap: 15px;
+			grid: auto / auto auto auto;
+			
+			grid-auto-columns: 33%;
+
+			grid-auto-rows: 33%;
 		}
